@@ -1,16 +1,14 @@
 
 html {
   height: 100%;
-  background: whitesmoke;
   background-size: 100% 100%;
   overflow: auto;
-  color: white;
   position: center;
 }
 /* giving navbar transparent background */
 body, .navbar {
   padding: 10px;
-  background-color: white;
+  background-color: lightgray;
 }
 /* making navbar li inline-block element */
 .navbar li {
@@ -26,4 +24,12 @@ border-radius: 3px;
 .navbar li a {
 font-size: larger;
 background-color: turquoise;
+}
+
+.container {
+  overflow: auto;
+}
+
+.table {
+  overflow: auto;
 }
